@@ -1,0 +1,8 @@
+name: TDeathBan
+version: 1.0
+author: Mine_Alex
+main: minealex.tdeathban.TDeathBan
+
+commands:
+  tdb:
+    description: Help command

@@ -1,0 +1,7 @@
+messages:
+  death_message: "&5TDeathBan &e> &cYou have died"
+  remaining_lives_singular: "&5TDeathBan &e> &7You have &e{0} &7life left"
+  remaining_lives_plural: "&5TDeathBan &e> &7You have &e{0} &7lives left"
+  tempban_reason: "&5TDeathBan &e> &cYou have run out of lives. Tempban for &e{0} &chours."
+  reload_succes: "&5TDeathBan &e> &aTDeathBan configurations reloaded."
+  no_permission: "&5TDeathBan &e> &cYou don't have permission to use this command."
