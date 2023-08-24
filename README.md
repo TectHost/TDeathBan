@@ -8,9 +8,11 @@ Advanced Death ban plugin
 
 # Commands
 - /tdb reload
+- /tdb version
 
 # Permissions
 - tdb.reload
+- tdb.version
 
 # Dependencies
 - PlaceholderAPI
