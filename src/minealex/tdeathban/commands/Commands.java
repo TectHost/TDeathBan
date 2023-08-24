@@ -30,6 +30,16 @@ public class Commands implements CommandExecutor {
                 sender.sendMessage(ChatColor.translateAlternateColorCodes('&', noPermissionMessage));
             }
             return true;
+        } else if (args.length == 1 && args[0].equalsIgnoreCase("version")) {
+            if (sender.hasPermission("tdb.version")) {
+                String versionMessage = plugin.getMessages().getString("messages.version", "&5TDeathBan &e> &aTDeathBan version: &e{version}");
+                versionMessage = versionMessage.replace("{version}", plugin.getDescription().getVersion());
+                sender.sendMessage(ChatColor.translateAlternateColorCodes('&', versionMessage));
+            } else {
+                String noPermissionMessage = plugin.getMessages().getString("messages.no_permission", "&5TDeathBan &e> &cYou don't have permission to use this command.");
+                sender.sendMessage(ChatColor.translateAlternateColorCodes('&', noPermissionMessage));
+            }
+            return true;
         }
         return false;
     }

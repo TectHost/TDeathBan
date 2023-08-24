@@ -5,3 +5,4 @@ messages:
   tempban_reason: "&5TDeathBan &e> &cYou have run out of lives. Tempban for &e{0} &chours."
   reload_succes: "&5TDeathBan &e> &aTDeathBan configurations reloaded."
   no_permission: "&5TDeathBan &e> &cYou don't have permission to use this command."
+  version: "&5TDeathBan &e> &aTDeathBan version: &e{version}"
