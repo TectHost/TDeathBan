@@ -1,2 +1,3 @@
 Config:
   tempban_duration_hours: 4
+  max_lives: 5

@@ -28,12 +28,14 @@ public class TDeathBan extends JavaPlugin {
     private File messagesFile = null;
     private FileConfiguration config = null;
     private File configFile = null;
+    private int cantidadMaximaVidas = 5;
 
     private ArrayList<VidaJugador> vidas = new ArrayList<VidaJugador>();
-    private int cantidadMaximaVidas;
 
     public void onEnable() {
-        cantidadMaximaVidas = 3;
+    	reloadConfig();
+        config = getConfig();
+        cantidadMaximaVidas = config.getInt("Config.max_lives", cantidadMaximaVidas);
         registerEvents();
         registerPlayers();
         registerMessages();
