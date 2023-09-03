@@ -5,6 +5,7 @@ Advanced Death ban plugin
 - Customizable temp ban
 - PlaceholderAPI Expansion
 - 100% customizable
+- Customizable lifes
 
 # Commands
 - /tdb reload
